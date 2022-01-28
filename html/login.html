@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/jquery.validate.js"></script>
+    <script src="../js/login.js"></script>
+    
+</head>
+<body>
+    <table>
+        <form action="#">
+            <tr>
+                <td>
+                    <label for="username">Username</label>
+                </td>
+                <td>
+
+                    <input type="text" name="username" id="username" class="text" maxlength="20">
+                    </br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+
+                    <input type="password" id="password"  maxlength="10">
+                     <br>
+                </td>
+                 
+            <tr>
+             <td>   
+            <input type="submit" name="btnsubmit" id="btnsubmit" onclick="auth()" >
+             </td>
+            </tr>
+     </form>
+     </table>
+</body>
+</html>
